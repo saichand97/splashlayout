@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_main_layout_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:layout_marginBottom="100dp"
+    android:background="@drawable/layout_bg">
+
+    </android.support.v7.widget.Toolbar>
+    <EditText
+            android:id="@+id/et_main_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:layout_below="@+id/tb_main_layout_3"
+            android:gravity="center"/>
+    <EditText
+            android:id="@+id/et_main_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_main_name"
+            android:gravity="center"
+            android:hint="Enter Age"/>
+    <EditText
+            android:id="@+id/et_main_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Gender"
+            android:gravity="center"
+            android:layout_below="@+id/et_main_age"/>
+    <Button
+            android:id="@+id/b_main_layout_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    android:layout_below="@+id/et_main_gender"
+    android:text="submit"
+    android:background="@drawable/layout_bg"
+    android:textColor="@color/white"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="20dp"/>
+</RelativeLayout>

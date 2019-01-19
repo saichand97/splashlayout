@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_main_layout_1"
+            android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:background="@drawable/layout_bg">
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+            android:id="@+id/tv_main_name"
+            android:layout_width="match_parent"
+              android:layout_height="100dp"
+    android:layout_below="@+id/tb_main_layout_1"
+    android:gravity="center"
+    android:hint="Name"
+    android:textSize="30sp"/>
+<TextView
+        android:id="@+id/tv_main_age"
+        android:layout_width="match_parent"
+          android:layout_height="100dp"
+android:layout_below="@+id/tv_main_name"
+        android:hint="Age"
+        android:textSize="30sp"
+android:gravity="center"/>
+    <TextView
+            android:id="@+id/tv_main_gender"
+            android:layout_width="match_parent"
+              android:layout_height="100dp"
+    android:layout_below="@+id/tv_main_age"
+            android:hint="Gender"
+            android:textSize="30sp"
+    android:gravity="center"/>
+    <Button
+            android:id="@+id/b_main_layout_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    android:layout_below="@+id/tv_main_gender"
+    android:layout_centerInParent="true"
+            android:background="@drawable/layout_bg"
+            android:textColor="@color/white"
+    android:text="@string/next"/>
+</RelativeLayout>
